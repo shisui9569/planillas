@@ -839,36 +839,6 @@ footer {
 .social-web {
     background-color: #4caf50;
 }
-/* Versión móvil */
-@media (max-width: 768px) {
-    .social-bar-container {
-        top: auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        transform: none;
-    }
-    
-    .social-bar-left {
-        flex-direction: row;
-        width: 100%;
-        border-radius: 12px 12px 0 0;
-        justify-content: center;
-    }
-    
-    .social-bar-link {
-        width: 45px;
-        height: 45px;
-    }
-    
-    .social-bar-link:hover {
-        width: 45px;
-    }
-    
-    .social-bar-text {
-        display: none !important;
-    }
-}
 /* Botones Info */
 .btn-info {
     display: inline-block;
@@ -1128,3 +1098,4 @@ footer {
     animation: fadeIn 0.3s ease-out;
 
 }
+
